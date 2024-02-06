@@ -1,0 +1,83 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background: url('https://tse2.mm.bing.net/th?id=OIP.nbrT5M-mreFzz990rig_SQHaE7&pid=Api&P=0&h=180') center center fixed;
+    background-size: cover;
+}
+.header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  .header h1 {
+    margin: 0;
+  }
+
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+.card .card-info {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.card .card-info .card-content {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.card .card-weather {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.card .card-weather .card-weather-icon {
+
+    animation: move 1s infinite alternate ease-in-out;
+}
+
+.card .card-weather .card-weather-desc {
+    font-size: 13px;
+
+}
+
+.card-weather-icon {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.5s ease; /* Add transition property for smooth animation */
+  }
+  
+  .card-weather-icon:hover {
+    transform: scale(1.2); /* Increase size on hover */
+  }

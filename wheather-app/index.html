@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="header">
+        <h1>Today Location and Weather</h1>
+    </div>
+    
+    
+    <div class="card">
+        
+        <div class="card-info">
+            <h2 >Location</h2>
+            
+            <p id="country" class="card-content">  </p>
+            <p id="locationName" class="card-content"></p>
+            <p id ="date" class="card-content"></p>
+            <p id ="time" class="card-content"></p>
+        </div>
+        
+        <div class="card-weather">
+            <img id="morning" class="card-weather-icon" src="" alt="">
+            <p id="morning-desc" class="card-weather-desc"></p>
+            <p id="temp" class="card-weather-desc"></p>
+            <p id="max-temp" class="card-weather-desc"></p>
+        </div>
+       
+        <div class="card-weather">
+            <img id="night" class="card-weather-icon" src="" alt="">
+            <p id="night-desc" class="card-weather-desc"></p>
+            <p id="tempo" class="card-weather-desc"></p>
+            <p id="max-tempo" class="card-weather-desc"></p>
+        </div>
+        
+    </div>
+    
+    
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
